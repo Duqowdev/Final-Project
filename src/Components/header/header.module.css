@@ -1,0 +1,17 @@
+.header{
+    margin: 1.5rem 0;
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.manu{ 
+    margin-left: 015rem;
+      
+
+}
