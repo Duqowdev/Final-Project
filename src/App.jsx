@@ -1,21 +1,27 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
 
-import Header from './Components/header/Header'
-import Date from './Components/Date/Date'
-import React from 'react'
-
-// this is the app functionxccnkcn
 function App() {
-
   return (
-    <>
-    <Header/>
-    <Date/>
-
-  
-
-    
-    </>
-  )
+    <Router>
+      <div className="bg-gray-100 flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;
