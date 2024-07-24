@@ -5,22 +5,27 @@ import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import CandidateInfo from "./Pages/CandidateInfo";
+import { CandidateProvider } from "./Components/CandidateContext";
 
 function App() {
   return (
-    <Router>
-      <div className="bg-gray-100 flex flex-col min-h-screen">
-        <Header />
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="contact" element={<Contact />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <CandidateProvider>
+      <Router>
+        <div className="bg-gray-100 flex flex-col min-h-screen">
+          <Header />
+          <main className="flex-grow">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="about" element={<About />} />
+              <Route path="contact" element={<Contact />} />
+              <Route path="candidate/:id" element={<CandidateInfo />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </Router>
+    </CandidateProvider>
   );
 }
 

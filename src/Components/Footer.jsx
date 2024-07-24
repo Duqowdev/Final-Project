@@ -7,10 +7,12 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between items-center">
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold mb-4">BrandLogo</h2>
-            <p className="text-gray-400">
-              © 2024 BrandLogo. All rights reserved.
-            </p>
+            <img
+              src="/public/images/somalia.png"
+              alt=""
+              className="w-20 h-12"
+            />
+            <p className="text-gray-400">© 2024 Somalia All rights reserved.</p>
           </div>
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
             <nav className="flex justify-center space-x-6">

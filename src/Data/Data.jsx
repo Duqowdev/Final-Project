@@ -6,8 +6,8 @@ const candidates = [
     Age: "60",
     PersonalBackground:
       "Kudhashay: Gobal Hiran Gar Ahan Dagmade Jalaqsi isla dagmade jalaqsi kabilaaway Dugsiga Hoose iyo Dugsiga sare, heer jamacadeedna kabilaaway magalada Mogadisho ilaa shahadada Phd qatay, Aqontisana dalka wax badan uga soo shaqeya waqtigisa uga dherana ahaa bare jamacadeed, Dalka tira 2 jeer kanoqday madaxweyne umadda somalia.",
-    NumberofVotes: "224",
-    Photo: "/images/1.jpeg",
+    NumberofVotes: 224,
+    Photo: "/public/images/1.jpg",
   },
   {
     Id: "2",
@@ -16,8 +16,8 @@ const candidates = [
     Age: "59",
     PersonalBackground:
       "Kudhashay: casimadda Moqadisho Gaar ahan Dagmada Waabari Heerka Hoose ee wax barshada ka bilaway casimada umada somalia ilaa heer jamacadeed kadib bur burkii dalka carigaas iyo America qabtay kana dhemestirtay wax barashadisa kan ahaa barro jamacadeed dalkana kaso qabtay xilal kala duwan side reesul wasaare iyo madexeyne.",
-    NumberofVotes: "100",
-    Photo: "/images/2.jpeg",
+    NumberofVotes: 100,
+    Photo: "/public/images/2.jpg",
   },
   {
     Id: "3",
@@ -26,8 +26,8 @@ const candidates = [
     Age: "55",
     PersonalBackground:
       "Kudhashay: casimadda Moqadisho Gaar ahan Dagmada Waabari Heerka Hoose ee wax barshada ka bilaway casimada umada somalia ilaa heer jamacadeed kadib bur burkii dalka carigaas iyo America qabtay kana dhemestirtay wax barashadisa kan ahaa barro jamacadeed dalkana kaso qabtay xilal kala duwan side reesul wasaare iyo madexeyne.",
-    NumberofVotes: "109",
-    Photo: "/images/3.jpeg",
+    NumberofVotes: 109,
+    Photo: "/public/images/3.jpg",
   },
   {
     Id: "4",
@@ -36,8 +36,8 @@ const candidates = [
     Age: "59",
     PersonalBackground:
       "Kudhashay: casimadda Moqadisho Gaar ahan Dagmada Waabari Heerka Hoose ee wax barshada ka bilaway casimada umada somalia ilaa heer jamacadeed kadib bur burkii dalka carigaas iyo America qabtay kana dhemestirtay wax barashadisa kan ahaa barro jamacadeed dalkana kaso qabtay xilal kala duwan side reesul wasaare iyo madexeyne.",
-    NumberofVotes: "199",
-    Photo: "/images/4.jpeg",
+    NumberofVotes: 199,
+    Photo: "/public/images/4.jpg",
   },
   {
     Id: "5",
@@ -46,8 +46,8 @@ const candidates = [
     Age: "59",
     PersonalBackground:
       "Kudhashay: casimadda Moqadisho Gaar ahan Dagmada Waabari Heerka Hoose ee wax barshada ka bilaway casimada umada somalia ilaa heer jamacadeed kadib bur burkii dalka carigaas iyo America qabtay kana dhemestirtay wax barashadisa kan ahaa barro jamacadeed dalkana kaso qabtay xilal kala duwan side reesul wasaare iyo madexeyne.",
-    NumberofVotes: "110",
-    Photo: "/images/5.jpeg",
+    NumberofVotes: 110,
+    Photo: "/public/images/5.jpg",
   },
 ];
 
