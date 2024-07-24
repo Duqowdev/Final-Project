@@ -1,12 +1,12 @@
 import React, { createContext, useState, useEffect } from "react";
-import candidatesData from "../Data/Data";
+import candidates from "../Data/Data";
 
 const CandidateContext = createContext();
 
 export const CandidateProvider = ({ children }) => {
   const [candidateList, setCandidateList] = useState(() => {
     const savedCandidates = localStorage.getItem("candidates");
-    return savedCandidates ? JSON.parse(savedCandidates) : candidatesData;
+    return savedCandidates ? JSON.parse(savedCandidates) : candidates;
   });
 
   const [hasVoted, setHasVoted] = useState(() => {
