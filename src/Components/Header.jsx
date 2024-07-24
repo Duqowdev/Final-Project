@@ -1,4 +1,5 @@
 import React from "react";
+import img from "/public/images/somalia.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -6,7 +7,7 @@ const Header = () => {
     <header className="bg-gradient-to-r from-slate-200 via-blue-500 to-purple-500 p-6 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/">
-          <img src="/public/images/somalia.png" alt="" className="w-20 h-12" />
+          <img src={img} alt="" className="w-20 h-12" />
         </Link>
         <nav className="space-x-8">
           <Link to="/" className="text-white text-lg hover:underline">
